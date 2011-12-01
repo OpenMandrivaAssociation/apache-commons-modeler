@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          2.0.1
-Release:          9
+Release:          10
 Summary:          Model MBeans utility classes
 Group:            Development/Java
 License:          ASL 2.0
