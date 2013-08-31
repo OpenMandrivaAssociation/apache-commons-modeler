@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          2.0.1
-Release:          10
+Release:          11
 Summary:          Model MBeans utility classes
 Group:            Development/Java
 License:          ASL 2.0
@@ -15,16 +15,16 @@ BuildArch:        noarch
 BuildRequires:    java-devel >= 0:1.6.0
 BuildRequires:    jpackage-utils
 BuildRequires:    ant
-BuildRequires:    apache-commons-beanutils
-BuildRequires:    apache-commons-digester
-BuildRequires:    apache-commons-logging
+BuildRequires:    commons-beanutils
+BuildRequires:    jakarta-commons-digester
+BuildRequires:    commons-logging
 BuildRequires:    junit
 
 Requires:         java >= 0:1.6.0
 Requires:         jpackage-utils
-Requires:         apache-commons-beanutils
-Requires:         apache-commons-digester
-Requires:         apache-commons-logging
+Requires:         commons-beanutils
+Requires:         jakarta-commons-digester
+Requires:         commons-logging
 Requires(post):   jpackage-utils
 Requires(postun): jpackage-utils
 
