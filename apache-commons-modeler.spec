@@ -58,7 +58,7 @@ sed -i 's/\r//' NOTICE.txt
 # TODO: Use Maven for building as soon as upstream provides proper build.xml. 
 export CLASSPATH=$(build-classpath \
                    commons-logging \
-                   jakarta-commons-digester \
+                   commons-digester \
                    commons-beanutils \
                    junit )
 
