@@ -16,14 +16,14 @@ BuildRequires:    java-devel >= 0:1.6.0
 BuildRequires:    jpackage-utils
 BuildRequires:    ant
 BuildRequires:    commons-beanutils
-BuildRequires:    jakarta-commons-digester
+BuildRequires:    commons-digester
 BuildRequires:    commons-logging
 BuildRequires:    junit
 
 Requires:         java >= 0:1.6.0
 Requires:         jpackage-utils
 Requires:         commons-beanutils
-Requires:         jakarta-commons-digester
+Requires:         commons-digester
 Requires:         commons-logging
 Requires(post):   jpackage-utils
 Requires(postun): jpackage-utils
