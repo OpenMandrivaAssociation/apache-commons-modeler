@@ -57,9 +57,9 @@ sed -i 's/\r//' NOTICE.txt
 %build
 # TODO: Use Maven for building as soon as upstream provides proper build.xml. 
 export CLASSPATH=$(build-classpath \
-                   apache-commons-logging \
-                   apache-commons-digester \
-                   apache-commons-beanutils \
+                   commons-logging \
+                   jakarta-commons-digester \
+                   commons-beanutils \
                    junit )
 
 ant -Dbuild.sysclasspath=first test dist
