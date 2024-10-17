@@ -7,7 +7,7 @@ Version:          2.0.1
 Release:          13.0%{?dist}
 Summary:          Model MBeans utility classes
 License:          ASL 2.0
-URL:              http://commons.apache.org/%{base_name}/
+URL:              https://commons.apache.org/%{base_name}/
 Source0:          http://www.apache.org/dist/commons/%{base_name}/source/%{short_name}-%{version}-src.tar.gz
 # POM file based on the one from an unreleased upstream snapstream
 Source1:          pom.xml
